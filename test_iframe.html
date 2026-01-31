@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scorecard Proxy Test</title>
+    <style>
+        body { background: #333; color: white; font-family: sans-serif; text-align: center; }
+        iframe { width: 100%; height: 600px; border: 2px solid #00ff00; background: #fff; }
+    </style>
+</head>
+<body>
+    <h1>Secure Scorecard Proxy Test</h1>
+    <p>Proxy URL: <code>http://localhost:3000/v1/sportradar/scorecard/lmt/?matchId=57013963&language=en&themeRefresh=1</code></p>
+    
+    <!-- IFRAME POINTING TO PROXY -->
+    <iframe src="http://localhost:3000/v1/sportradar/scorecard/lmt/?matchId=57013963&language=en&themeRefresh=1"></iframe>
+
+</body>
+</html>
